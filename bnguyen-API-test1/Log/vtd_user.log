@@ -1,0 +1,62 @@
+2020-06-24 22:36:39,506 [1] INFO  - Loaded appender: FileAppenderInternal
+2020-06-24 22:36:39,506 [1] INFO  - Loaded appender: RollingFileAppender_Web
+2020-06-24 22:36:39,506 [1] INFO  - Loaded appender: RollingFileAppender_ParallelWebClient
+2020-06-24 22:36:39,506 [1] INFO  - Loaded appender: BufferingForwardingAppender
+2020-06-24 22:36:39,506 [1] INFO  - Loaded appender: RollingFileAppender_WebDriverHost
+2020-06-24 22:36:39,506 [1] INFO  - Loaded appender: RollingFileAppender_ParallelRunner
+2020-06-24 22:36:39,506 [1] INFO  - Loaded appender: RollingFileAppender_RPARunRecord
+2020-06-24 22:36:39,506 [1] INFO  - Loaded appender: RollingFileAppender_SendUsageReport
+2020-06-24 22:36:39,506 [1] INFO  - Loaded appender: RollingFileAppender_HTMLReporter
+2020-06-24 22:36:39,506 [1] INFO  - Loaded appender: RollingFileAppender_ParallelMediator
+2020-06-24 22:36:39,506 [1] INFO  - Loaded appender: RollingFileAppender_Qtdrv
+2020-06-24 22:36:39,506 [1] INFO  - Loaded appender: RollingFileAppender_Mobile
+2020-06-24 22:36:39,506 [1] INFO  - Loaded appender: FileAppenderExternal
+2020-06-24 22:36:39,506 [1] INFO  - Loaded appender: UserLoggerAppender
+2020-06-24 22:36:39,521 [1] INFO  - Loaded appender: FileAppenderInternal
+2020-06-24 22:36:39,521 [1] INFO  - Loaded appender: RollingFileAppender_Web
+2020-06-24 22:36:39,521 [1] INFO  - Loaded appender: RollingFileAppender_ParallelWebClient
+2020-06-24 22:36:39,521 [1] INFO  - Loaded appender: BufferingForwardingAppender
+2020-06-24 22:36:39,521 [1] INFO  - Loaded appender: RollingFileAppender_WebDriverHost
+2020-06-24 22:36:39,521 [1] INFO  - Loaded appender: RollingFileAppender_ParallelRunner
+2020-06-24 22:36:39,521 [1] INFO  - Loaded appender: RollingFileAppender_RPARunRecord
+2020-06-24 22:36:39,537 [1] INFO  - Loaded appender: RollingFileAppender_SendUsageReport
+2020-06-24 22:36:39,537 [1] INFO  - Loaded appender: RollingFileAppender_HTMLReporter
+2020-06-24 22:36:39,537 [1] INFO  - Loaded appender: RollingFileAppender_ParallelMediator
+2020-06-24 22:36:39,537 [1] INFO  - Loaded appender: RollingFileAppender_Qtdrv
+2020-06-24 22:36:39,537 [1] INFO  - Loaded appender: RollingFileAppender_Mobile
+2020-06-24 22:36:39,537 [1] INFO  - Loaded appender: FileAppenderExternal
+2020-06-24 22:36:39,537 [1] INFO  - Loaded appender: UserLoggerAppender
+2020-06-24 22:36:39,568 [13] INFO  - 
+Request:
+
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <Body>
+    <CreateFlightOrder xmlns="HP.SOAQ.SampleApp">
+      <FlightOrder>
+        <Class>Business</Class>
+        <CustomerName>bnguyen</CustomerName>
+        <DepartureDate>2020-06-25T00:00:00-07:00</DepartureDate>
+        <FlightNumber>12518</FlightNumber>
+        <NumberOfTickets>2</NumberOfTickets>
+      </FlightOrder>
+    </CreateFlightOrder>
+  </Body>
+</Envelope>
+
+2020-06-24 22:36:39,592 [13] INFO  - URL: http://localhost:8000/Flights_SOAP
+2020-06-24 22:36:39,617 [13] INFO  - Returning the response to the previous channel
+2020-06-24 22:36:39,621 [13] INFO  - 
+Response:
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <CreateFlightOrderResponse xmlns="HP.SOAQ.SampleApp">
+      <CreateFlightOrderResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <OrderNumber>88</OrderNumber>
+        <TotalPrice>667.2</TotalPrice>
+      </CreateFlightOrderResult>
+    </CreateFlightOrderResponse>
+  </s:Body>
+</s:Envelope>
+
+2020-06-24 22:36:39,650 [13] INFO  - Structural Validation: True
